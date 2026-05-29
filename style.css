@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Novo Site</title>
+    <style>
+        /* Estilos básicos para o site não ficar em branco */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #007acc;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            margin-top: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+        <p>Criado com o VS Code</p>
+    </header>
+
+    <main>
+        <h2>Sobre este projeto</h2>
+        <p>Este é o esqueleto inicial do seu arquivo <strong>index.html</strong>. A partir daqui, você pode começar a construir o seu próprio conteúdo, adicionar imagens, links e novos estilos.</p>
+        
+        <h3>Próximos passos recomendados:</h3>
+        <ul>
+            <li>Criar um arquivo <code>style.css</code> separado para organizar seu design.</li>
+            <li>Adicionar um arquivo <code>script.js</code> se precisar de interatividade.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+/* ==========================================================================
+   1. CONFIGURAÇÕES GERAIS (Reset básico para zerar margens padrão)
+   ========================================================================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==========================================================================
+   2. CABEÇALHO (Header)
+   ========================================================================== */
+header {
+    background: linear-gradient(135deg, #007acc, #005994);
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* ==========================================================================
+   3. CONTEÚDO PRINCIPAL (Main)
+   ========================================================================== */
+main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+main h2 {
+    color: #007acc;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #f0f2f5;
+    padding-bottom: 10px;
+}
+
+main h3 {
+    margin-top: 30px;
+    color: #555;
+}
+
+main p {
+    margin-bottom: 15px;
+}
+
+/* Lista estilizada */
+ul {
+    list-style: none; /* Remove as bolinhas padrão */
+    margin-top: 15px;
+}
+
+ul li {
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 4px solid #007acc;
+    border-radius: 4px;
+    font-weight: 500;
+}
+
+/* Estilo para destacar códigos de exemplo */
+code {
+    background-color: #e9ecef;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d63384;
+}
+
+/* ==========================================================================
+   4. RODAPÉ (Footer)
+   ========================================================================== */
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    color: #777;
+    font-size: 0.9rem;
+    margin-top: 60px;
+}
