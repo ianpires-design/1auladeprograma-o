@@ -3,21 +3,92 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agrinho 2026 - Do Campo à Tecnologia</title>
+    <title>Agrinho 2026 - Dashboard AgroInteligente</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">Agrinho <span>2026</span></div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#inicio">Início</a></li>
-                <li><a href="#sobre">Sobre o Projeto</a></li>
-                <li><a href="#pilares">Pilares</a></li>
-                <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="logo-area">
+                <h2>Agro<span>Digital</span></h2>
+                <small>Projeto Agrinho 2026</small>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="active">📊 Monitoramento</a>
+                <a href="#">🌱 Minha Lavoura</a>
+                <a href="#">💧 Gestão de Água</a>
+                <a href="#">📈 Relatórios</a>
+            </nav>
+            <div class="sidebar-footer">
+                <p>Escola Conectada</p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="top-header">
+                <h1>Painel de Controle de Irrigação de Precisão</h1>
+                <span class="status-badge">● Sistema Online</span>
+            </header>
+
+            <section class="cards-grid">
+                
+                <div class="sensor-card">
+                    <div class="card-icon">💧</div>
+                    <div class="card-info">
+                        <h3>Umidade do Solo</h3>
+                        <p class="sensor-value">42%</p>
+                        <span class="status-text alert">Necessita Irrigação</span>
+                    </div>
+                </div>
+
+                <div class="sensor-card">
+                    <div class="card-icon">☀️</div>
+                    <div class="card-info">
+                        <h3>Temperatura do Ar</h3>
+                        <p class="sensor-value">28°C</p>
+                        <span class="status-text ideal">Ideal para o Cultivo</span>
+                    </div>
+                </div>
+
+                <div class="sensor-card">
+                    <div class="card-icon">🛢️</div>
+                    <div class="card-info">
+                        <h3>Nível do Reservatório</h3>
+                        <p class="sensor-value">85%</p>
+                        <span class="status-text ideal">Nível Seguro</span>
+                    </div>
+                </div>
+
+            </section>
+
+            <section class="impacto-section">
+                <div class="simulador-box">
+                    <h2>Simulador de Economia Sustentável</h2>
+                    <p>Ao automatizar a irrigação com base nos dados dos sensores acima, o produtor evita o desperdício de recursos.</p>
+                    
+                    <div class="dados-economia">
+                        <div class="dado">
+                            <h4>Água Economizada</h4>
+                            <p class="destaque">15.400 Litros</p>
+                        </div>
+                        <div class="dado">
+                            <h4>Redução de Custos</h4>
+                            <p class="destaque">22%</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Dica-sustentavel">
+                    <h3>💡 Insights do Agrinho</h3>
+                    <p>A tecnologia aliada ao campo permite que pequenas propriedades rurais tenham a mesma eficiência de grandes empresas, fortalecendo a agricultura familiar e preservando o meio ambiente para as próximas gerações.</p>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
